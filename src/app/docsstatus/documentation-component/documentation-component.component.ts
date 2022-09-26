@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./documentation-component.component.scss']
 })
 export class DocumentationComponentComponent implements OnInit {
-  @Input() currentDocstatus = {};
+  @Input() currentDocstatus: any;
   docStatus: Object = {};
   constructor() { }
 
   ngOnInit(): void {
-
+    console.log(this.currentDocstatus)
   }
 
 }
