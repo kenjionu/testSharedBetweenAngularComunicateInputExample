@@ -1,1 +1,32 @@
 <p>docsstatus works!</p>
+<app-documentation-component [currentDocstatus]="currentDocStatus"></app-documentation-component>
+<hr class="documentation-database-divisor">
+    <p class="body-1">Databases</p>
+    <!-- <p *ngIf="currentICStatus === iCStatus.FOLDER_NOT_SELECTED" class="caption" id="icFolderNotSelected">Select a folder to extract the databases.</p>
+    <mat-spinner *ngIf="currentICStatus === iCStatus.FOLDER_SELECTED" class="ra-int-spinner" diameter="14" strokeWidth="2"></mat-spinner>
+    <p *ngIf="currentICStatus === iCStatus.LINEUPS_SUCCESS" class="caption label__element-found" id="icFolderValid">
+      <span class="icon__element-found ra-icon-ide-md-color-check"></span>
+      MCC Lineup(s) found.
+    </p>
+    <p *ngIf="currentICStatus === iCStatus.LINEUPS_ERROR" class="caption label__element-found" id="icFolderInvalidEmpty">
+      <span class="icon__element-found ra-icon-ide-md-color-error"></span>
+      <span class="text__dialog-error">There are no databases in this folder.</span>
+    </p>
+    <p *ngIf="currentICStatus === iCStatus.ICSETUPMDB_NOT_FOUND" class="caption label__element-found" id="icFolderInvalidIcSetup">
+      <span class="icon__element-found ra-icon-ide-md-color-error"></span>
+      <span class="text__dialog-error">ICSetup.mdb not found in folder.</span>
+    </p>
+    <p *ngIf="currentICStatus === iCStatus.ICMDB_NOT_FOUND" class="caption label__element-found" id="icFolderInvalidIc">
+      <span class="icon__element-found ra-icon-ide-md-color-error"></span>
+      <span class="text__dialog-error">IC.mdb not found in folder.</span>
+    </p>
+    <div>
+      <ra-ui-file-input
+              id="icInput"
+              [buttonLabel]="icButtonLabel"
+              [config]="icFileConfig"
+              [value]="icValue"
+              (valueChange)="icChanged($event)"
+      ></ra-ui-file-input>
+    </div>
+  </div> -->

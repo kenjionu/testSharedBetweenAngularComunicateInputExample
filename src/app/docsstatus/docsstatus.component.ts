@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./docsstatus.component.scss']
 })
 export class DocsstatusComponent implements OnInit {
-
+  currentDocStatus:Object = {}
   constructor() { }
 
   ngOnInit(): void {
+    this.currentDocStatus = {
+      FOLDER_NOT_SELECTED: true,
+    }
   }
 
 }
